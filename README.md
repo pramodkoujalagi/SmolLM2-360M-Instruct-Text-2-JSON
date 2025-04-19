@@ -9,9 +9,83 @@ Fine-tuning a Small Language Model to parse raw, unstructured text and extract r
 
 ### 👉 [Deployed Live App: Checkout the demo here!](https://huggingface.co/spaces/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON)
 
-
 ### 🤗 [Hugging Face](https://huggingface.co/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON)
 
+---------------------------
+### 📦 Example Usage
+
+You can use the `SmolLM2-360M-Instruct-Text-2-JSON` model to parse natural language event descriptions into structured JSON format.
+
+```python
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import json
+
+# Load model and tokenizer
+model_name = "pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name)
+
+def parse_calendar_event(text):
+    # Format the prompt
+    formatted_prompt = f"""<|im_start|>user
+Extract the relevant event information from this text and organize it into a JSON structure with fields for action, date, time, attendees, location, duration, recurrence, and notes. If a field is not present, return null for that field.
+
+Text: {text}
+<|im_end|>
+<|im_start|>assistant
+"""
+
+    # Generate response
+    inputs = tokenizer(formatted_prompt, return_tensors="pt").to(model.device)
+    with torch.no_grad():
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=512,
+            do_sample=True,
+            temperature=0.1,
+            top_p=0.95,
+            pad_token_id=tokenizer.eos_token_id
+        )
+
+    # Process response
+    output_text = tokenizer.decode(outputs[0], skip_special_tokens=False)
+    response = output_text.split("<|im_start|>assistant\n")[1].split("<|im_end|>")[0].strip()
+
+    # Return formatted JSON
+    parsed_json = json.loads(response)
+    return json.dumps(parsed_json, indent=2)
+
+# Example input
+event_text = "Plan an exhibition walkthrough on 15th, April 2028 at 3 PM with Harper, Grace, and Alex in the art gallery for 1 hour, bring bag."
+
+# Output
+print("Prompt:")
+print(event_text)
+print("\nModel Output:")
+print(parse_calendar_event(event_text))
+```
+Output
+```
+Prompt:
+Plan an exhibition walkthrough on 15th, April 2028 at 3 PM with Harper, Grace, and Alex in the art gallery for 1 hour, bring bag.
+
+Model Output:
+{
+  "action": "Plan an exhibition walkthrough",
+  "date": "15/04/2028",
+  "time": "3:00 PM",
+  "attendees": [
+    "Harper",
+    "Grace",
+    "Alex"
+  ],
+  "location": "art gallery",
+  "duration": "1 hour",
+  "recurrence": null,
+  "notes": "Bring bag"
+}
+```
 
 ## 📚 Table of Contents
 
