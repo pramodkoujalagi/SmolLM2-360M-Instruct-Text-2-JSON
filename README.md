@@ -29,6 +29,7 @@ Fine-tuning a Small Language Model to parse raw, unstructured text and extract r
   - [Benchmark Results](#benchmark-results)
 - [Technical Implementation](#technical-implementation)
   - [Code Structure](#code-structure)
+  - [Deployment](##deployment)
 - [Future Enhancements](#future-enhancements)
 - [Conclusion](#conclusion)
 
@@ -227,6 +228,14 @@ The project's implementation is organized into several modular components:
 - **Evaluation**
   - [`eval.py`](eval.py): Evaluates model performance
 
+### Deployment
+Created a [**Gradio-based demo app**](https://huggingface.co/spaces/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON) to interact with the model in real time. I have deployed using the Hugging Face **Spaces** platform.
+
+📦 **App Stack**:
+- `Gradio` for frontend
+- `transformers` for loading the model
+- `Hugging Face Spaces` for hosting
+
 ## Future Enhancements
 
 While the current implementation achieves impressive results, several strategies could potentially improve performance further:
@@ -250,6 +259,7 @@ While the current implementation achieves impressive results, several strategies
 - **Human Evaluation**: Supplement automatic metrics with human judgments
 - **Edge Case Testing**: Create a specialized test set of particularly challenging cases
 - **Robustness Analysis**: Test model performance with noisy or malformed inputs
+
 
 ## Conclusion
 
