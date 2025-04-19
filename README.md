@@ -82,12 +82,7 @@ Data standardization ([`standardize_data.py`](standardize_data.py)) was implemen
 - Time formats (standardized to 12-hour format with AM/PM)
 - Duration expressions
 - Attendees lists
-
-Key functions:
-- `standardize_time()`: Normalizes various time formats to "HH:MM AM/PM"
-- `standardize_date()`: Converts date formats to "DD/MM/YYYY"
-- `standardize_duration()`: Harmonizes duration expressions to a consistent format
-- `standardize_attendees()`: Properly formats attendee lists
+- 
 
 ### Data Augmentation
 
@@ -115,6 +110,16 @@ To
   "output": "{\"action\": \"study session\", \"date\": \"15/12/2024\", \"time\": \"9:00 PM\", \"attendees\": null, \"location\": \"café\", \"duration\": \"2 hours\", \"recurrence\": null, \"notes\": null}"
 }
 ```
+
+**This approach provided several critical advantages:**
+
+**Clear task definition**: Explicit instructions helped the model understand exactly what was expected
+
+**Format specification**: The instruction clearly defined the required output structure
+
+**Null-handling guidance**: Explicit instructions on how to handle missing fields
+
+**Improved generalization**: The instruction-based format better leveraged the base model's instruction-following capabilities
 
 The processed data was then prepared for Unsloth fine-tuning using [`prepare_unsloth_data.py`](prepare_unsloth_data.py), which:
 - Formats data in the Unsloth-compatible chat template
