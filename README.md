@@ -38,7 +38,7 @@ The aim of this project is to fine-tune a Small Language Model (SmolLM2-360M-Ins
 
 **Example:**
 ```
-Input: "Plan an exhibition walkthrough on 15th, April 2028 at 3 PM with Harper, Grace, and Alex in the art gallery for 1 hour."
+Input: "Plan an exhibition walkthrough on 15th, April 2028 at 3 PM with Harper, Grace, and Alex in the art gallery for 1 hour, bring your bag."
 ```
 ```
 Output: {
@@ -53,7 +53,7 @@ Output: {
   "location": "art gallery",
   "duration": "1 hour",
   "recurrence": null,
-  "notes": null
+  "notes": Bring your bag
 }
 ```
 
