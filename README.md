@@ -183,7 +183,7 @@ The processed data was then prepared for Unsloth fine-tuning using [`prepare_uns
 
 ### Model Selection
 
-- Base model: SmolLM2-360M-Instruct-bnb-4bit
+- Base model: SmolLM2-360M-Instruct-bnb-4bit (Derived from HuggingfaceTB/SmolLM2-360)
 - Context length: 2048 tokens
 - Quantization: 4-bit quantization for memory-efficient training
 
@@ -271,7 +271,7 @@ The project's implementation is organized into several modular components:
 
 - **Data Processing**
   - [`standardize_data.py`](standardize_data.py): Normalizes date, time, duration formats
-  - [`augment_data.py`](augment_data.py): Augments data
+  - [`augment_data.py`](augment_data.py): Basic Data Augmentation
   - [`instruction_format.py`](instruction_format.py): Converts to instruction-based format
 
 - **Model Training**
