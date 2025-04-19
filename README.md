@@ -7,6 +7,10 @@ Fine-tuning a Small Language Model to parse raw, unstructured text and extract r
 
 **SmolLM2-360M-Instruct-Text-2-JSON** - A fine tuned version of SmolLM2-360M-Instruct-bnb-4bit specialized for parsing unstructured calendar event requests into structured JSON data.
 
+### 👉 [Deployed Live App: Checkout the demo here!](https://huggingface.co/spaces/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON)
+
+
+
 ## 📚 Table of Contents
 
 - [Project Overview](#project-overview)
