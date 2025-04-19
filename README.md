@@ -113,26 +113,6 @@ Model Output:
 
 The aim of this project is to fine-tune a Small Language Model (SmolLM2-360M-Instruct-bnb-4bit) to parse unstructured calendar event requests and extract structured information. The model identifies key scheduling entities such as action, date, time, attendees, location, duration, recurrence, and notes from natural language text.
 
-**Example:**
-```
-Input: "Plan an exhibition walkthrough on 15th, April 2028 at 3 PM with Harper, Grace, and Alex in the art gallery for 1 hour, bring your bag."
-```
-```
-Output: {
-  "action": "Plan an exhibition walkthrough",
-  "date": "15/04/2028",
-  "time": "3:00 PM",
-  "attendees": [
-    "Harper",
-    "Grace",
-    "Alex"
-  ],
-  "location": "art gallery",
-  "duration": "1 hour",
-  "recurrence": null,
-  "notes": Bring your bag
-}
-```
 
 ## Dataset
 
