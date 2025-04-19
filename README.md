@@ -229,7 +229,7 @@ The project's implementation is organized into several modular components:
   - [`eval.py`](eval.py): Evaluates model performance
 
 ### Deployment
-Created a [**Gradio-based demo app**](https://huggingface.co/spaces/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON) to interact with the model in real time. I have deployed using the Hugging Face **Spaces** platform.
+Created a [**Gradio-based demo app**](https://huggingface.co/spaces/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON) to interact with the model in real time. Deployed it using Hugging Face **Spaces** platform.
 
 📦 **App Stack**:
 - `Gradio` for frontend
