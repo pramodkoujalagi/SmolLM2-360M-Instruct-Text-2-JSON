@@ -29,7 +29,7 @@ Fine-tuning a Small Language Model to parse raw, unstructured text and extract r
   - [Benchmark Results](#benchmark-results)
 - [Technical Implementation](#technical-implementation)
   - [Code Structure](#code-structure)
-  - [Deployment](##deployment)
+  - [Deployment](#deployment)
 - [Future Enhancements](#future-enhancements)
 - [Conclusion](#conclusion)
 
