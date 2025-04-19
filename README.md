@@ -1,7 +1,9 @@
 # Entity Extraction from Calendar Event Texts
 Fine-tuning a Small Language Model to parse raw, unstructured text and extract relevant entities related to scheduling a calendar event.
 
-![Pramod](https://github.com/user-attachments/assets/daa843b7-c347-4c5a-815b-c9b837191666)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/daa843b7-c347-4c5a-815b-c9b837191666" alt="Pramod" width="700"/>
+</div>
 
 **SmolLM2-360M-Instruct-Text-2-JSON** - A fine tuned version of SmolLM2-360M-Instruct-bnb-4bit specialized for parsing unstructured calendar event requests into structured JSON data.
 
