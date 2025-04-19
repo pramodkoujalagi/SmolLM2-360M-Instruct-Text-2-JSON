@@ -83,7 +83,6 @@ Data standardization ([`standardize_data.py`](standardize_data.py)) was implemen
 - Time formats (standardized to 12-hour format with AM/PM)
 - Duration expressions
 - Attendees lists
-- 
 
 ### Data Augmentation
 
@@ -113,14 +112,11 @@ To
 ```
 
 **This approach provided several critical advantages:**
+- **Clear task definition**: Explicit instructions helped the model understand exactly what was expected
+- **Format specification**: The instruction clearly defined the required output structure
+- **Null-handling guidance**: Explicit instructions on how to handle missing fields
+- **Improved generalization**: The instruction-based format better leveraged the base model's instruction-following capabilities
 
-**Clear task definition**: Explicit instructions helped the model understand exactly what was expected
-
-**Format specification**: The instruction clearly defined the required output structure
-
-**Null-handling guidance**: Explicit instructions on how to handle missing fields
-
-**Improved generalization**: The instruction-based format better leveraged the base model's instruction-following capabilities
 
 The processed data was then prepared for Unsloth fine-tuning using [`prepare_unsloth_data.py`](prepare_unsloth_data.py), which:
 - Formats data in the Unsloth-compatible chat template
@@ -205,7 +201,7 @@ The evaluation process ([`eval.py`](eval.py)) focused on:
 </div>
 
 
-#### Key Observations
+### Key Observations
 - The fine-tuned model achieved near-perfect performance on most fields
 - Most dramatic improvements were in action, date, time, and duration fields
 - Perfect JSON parse rate shows the model learned to maintain structured output format
@@ -219,6 +215,7 @@ The project's implementation is organized into several modular components:
 
 - **Data Processing**
   - [`standardize_data.py`](standardize_data.py): Normalizes date, time, duration formats
+  - [`augment_data.py`](augment_data.py): Augments data
   - [`instruction_format.py`](instruction_format.py): Converts to instruction-based format
 
 - **Model Training**
