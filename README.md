@@ -263,3 +263,6 @@ While the current implementation achieves impressive results, several strategies
 The project successfully transforms the base SmolLM2-360M-Instruct-bnb-4bit model into a specialized entity extraction tool for calendar event scheduling. Through careful data curation, format standardization, and targeted fine-tuning, we can see the significant improvements across evaluation metrics.
 
 The instruction-based fine-tuning approach proved particularly effective, allowing the model to generate consistently structured outputs while handling diverse input phrasing. The resulting model demonstrates impressive capabilities in extracting structured information from unstructured text, with near-perfect accuracy across multiple entity types.
+
+## ⚖️ License
+This project is licensed under the Apache license 2.0 - see the [LICENSE](LICENSE) file for details.
