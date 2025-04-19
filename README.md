@@ -1,7 +1,7 @@
 # Entity Extraction from Calendar Event Texts
 Fine-tuning a Small Language Model to parse raw, unstructured text and extract relevant entities related to scheduling a calendar event.
 
-**SmolLM2-360M-Instruct-Text-2-JSON** - A fine-tuned version of SmolLM2-360M-Instruct-bnb-4bit specialized for parsing unstructured calendar event requests into structured JSON data.
+**SmolLM2-360M-Instruct-Text-2-JSON** - A fine tuned version of SmolLM2-360M-Instruct-bnb-4bit specialized for parsing unstructured calendar event requests into structured JSON data.
 
 ## 📚 Table of Contents
 
