@@ -4,8 +4,8 @@
 ![Small Language Model](https://img.shields.io/badge/Model-SmolLM2--360M--Instruct--bnb--4bit-blueviolet)
 
 ![Llama](https://img.shields.io/badge/Architecture-Llama-pink)
-![Text-2-JSON](https://img.shields.io/badge/Task-Text--2--JSON-cyan)
-![QLoRA](https://img.shields.io/badge/Method-QLoRA-red)
+![Text-2-JSON](https://img.shields.io/badge/Task-Text--2--JSON-orange)
+![QLoRA](https://img.shields.io/badge/Method-QLoRA-yellow)
 
 
 # Entity Extraction from Calendar Event Texts
