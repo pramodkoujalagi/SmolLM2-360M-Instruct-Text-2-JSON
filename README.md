@@ -1,9 +1,37 @@
+![Calendar Entity Extraction](https://img.shields.io/badge/NLP-Calendar%20Entity%20Extraction-blue)
+![Fine-tuning](https://img.shields.io/badge/SLM-Fine--tuning-green)
+![Small Language Model](https://img.shields.io/badge/Model-SmolLM2--360M--Instruct--bnb--4bit-orange)
+![Llama](https://img.shields.io/badge/Architecture-Llama-blueviolet)
+![Text-2-JSON](https://img.shields.io/badge/Task-Text--2--JSON-yellowgreen)
+![QLoRA](https://img.shields.io/badge/Method-QLoRA-red)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E&labelColor=%23000000" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/🤖-Transformers-%23000000.svg?style=for-the-badge&logoColor=white&labelColor=%23FF9A00" alt="Transformers">
+  <img src="https://img.shields.io/badge/🦥-Unsloth-%23FFFFFF.svg?style=for-the-badge&logoColor=white&labelColor=%237B35BF" alt="Unsloth">
+  <img src="https://img.shields.io/badge/Meta-LLama-%233776AB.svg?style=for-the-badge&logo=Meta&logoColor=white" alt="Meta LLama">
+</p>
+
+
 # Entity Extraction from Calendar Event Texts
 Fine-tuning a Small Language Model to parse raw, unstructured text and extract relevant entities related to scheduling a calendar event.
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/daa843b7-c347-4c5a-815b-c9b837191666" alt="Pramod" width="650"/>
 </div>
+
+<!-- <p align="center">
+  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E&labelColor=%23000000" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/🤖-Transformers-%23000000.svg?style=for-the-badge&logoColor=white&labelColor=%23FF9A00" alt="Transformers">
+  <img src="https://img.shields.io/badge/🦥-Unsloth-%23FFFFFF.svg?style=for-the-badge&logoColor=white&labelColor=%237B35BF" alt="Unsloth">
+  <img src="https://img.shields.io/badge/Fine--tuning-%2300BFFF.svg?style=for-the-badge&logoColor=white" alt="Fine-tuning">
+  <img src="https://img.shields.io/badge/QLoRA-%23FF6F61.svg?style=for-the-badge&logoColor=white" alt="QLoRA">
+  <img src="https://img.shields.io/badge/Fine--tuning-QLoRA-%23FF6F61.svg?style=for-the-badge&logoColor=white&labelColor=%2300BFFF" alt="Fine-tuning QLoRA">
+  <img src="https://img.shields.io/badge/Small_Language_Model-%233776AB.svg?style=for-the-badge&logoColor=white" alt="Small Language Model">
+  <img src="https://img.shields.io/badge/📄-Text--2--JSON-%23000000.svg?style=for-the-badge&logoColor=white&labelColor=%23F7DF1E" alt="Text-2-JSON">
+  <img src="https://img.shields.io/badge/Meta-LLama--3-%233776AB.svg?style=for-the-badge&logo=Meta&logoColor=white" alt="Meta LLama">
+</p>
+ -->
 
 **SmolLM2-360M-Instruct-Text-2-JSON** - A fine tuned version of SmolLM2-360M-Instruct-bnb-4bit specialized for parsing unstructured calendar event requests into structured JSON data.
 
