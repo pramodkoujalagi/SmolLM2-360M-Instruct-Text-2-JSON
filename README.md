@@ -248,6 +248,11 @@ The model was fine-tuned using the Unsloth framework with the following configur
 - **Final validation loss**: 0.2417
 - **Validation perplexity**: 1.2735 (excellent perplexity, close to 1.0)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/181c4da8-f63b-444c-ac31-c5172fece88a" width="1000">
+  <img src="https://github.com/user-attachments/assets/3929a20e-ff3e-46cb-943b-6e530821aa8d" width="1000">
+</p>
+
 The validation framework included:
 - Regular evaluation every 30 steps
 - Early stopping with patience of 3 evaluations
