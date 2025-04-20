@@ -114,7 +114,7 @@ Model Output:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E&labelColor=%23000000" alt="Hugging Face">
-  <img src="https://img.shields.io/badge/🤖-Transformers-%23000000.svg?style=for-the-badge&logoColor=white&labelColor=%23FF9A00" alt="Transformers">
+  <img src="https://img.shields.io/badge/🤖-Transformers-%23000000.svg?style=for-the-badge&logoColor=white&labelColor=%233776AB" alt="Transformers">
   <img src="https://img.shields.io/badge/🦥-Unsloth-%23FFFFFF.svg?style=for-the-badge&logoColor=white&labelColor=%237B35BF" alt="Unsloth">
   <img src="https://img.shields.io/badge/Meta-LLama-%233776AB.svg?style=for-the-badge&logo=Meta&logoColor=white" alt="Meta LLama">
 </p>
@@ -250,6 +250,9 @@ The model was fine-tuned using the Unsloth framework with the following configur
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/181c4da8-f63b-444c-ac31-c5172fece88a" width="1000">
+
+
+  
   <img src="https://github.com/user-attachments/assets/3929a20e-ff3e-46cb-943b-6e530821aa8d" width="1000">
 </p>
 
