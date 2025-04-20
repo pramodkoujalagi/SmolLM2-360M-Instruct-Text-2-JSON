@@ -5,13 +5,6 @@
 ![Text-2-JSON](https://img.shields.io/badge/Task-Text--2--JSON-yellowgreen)
 ![QLoRA](https://img.shields.io/badge/Method-QLoRA-red)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E&labelColor=%23000000" alt="Hugging Face">
-  <img src="https://img.shields.io/badge/🤖-Transformers-%23000000.svg?style=for-the-badge&logoColor=white&labelColor=%23FF9A00" alt="Transformers">
-  <img src="https://img.shields.io/badge/🦥-Unsloth-%23FFFFFF.svg?style=for-the-badge&logoColor=white&labelColor=%237B35BF" alt="Unsloth">
-  <img src="https://img.shields.io/badge/Meta-LLama-%233776AB.svg?style=for-the-badge&logo=Meta&logoColor=white" alt="Meta LLama">
-</p>
-
 
 # Entity Extraction from Calendar Event Texts
 Fine-tuning a Small Language Model to parse raw, unstructured text and extract relevant entities related to scheduling a calendar event.
@@ -114,6 +107,16 @@ Model Output:
   "notes": "Bring bag"
 }
 ```
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Hugging%20Face-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E&labelColor=%23000000" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/🤖-Transformers-%23000000.svg?style=for-the-badge&logoColor=white&labelColor=%23FF9A00" alt="Transformers">
+  <img src="https://img.shields.io/badge/🦥-Unsloth-%23FFFFFF.svg?style=for-the-badge&logoColor=white&labelColor=%237B35BF" alt="Unsloth">
+  <img src="https://img.shields.io/badge/Meta-LLama-%233776AB.svg?style=for-the-badge&logo=Meta&logoColor=white" alt="Meta LLama">
+</p>
+
+
+----------------
 
 ## 📚 Table of Contents
 
