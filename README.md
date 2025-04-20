@@ -1,6 +1,8 @@
 ![Calendar Entity Extraction](https://img.shields.io/badge/NLP-Calendar%20Entity%20Extraction-blue)
+
 ![Fine-tuning](https://img.shields.io/badge/SLM-Fine--tuning-green)
 ![Small Language Model](https://img.shields.io/badge/Model-SmolLM2--360M--Instruct--bnb--4bit-orange)
+
 ![Llama](https://img.shields.io/badge/Architecture-Llama-blueviolet)
 ![Text-2-JSON](https://img.shields.io/badge/Task-Text--2--JSON-yellowgreen)
 ![QLoRA](https://img.shields.io/badge/Method-QLoRA-red)
