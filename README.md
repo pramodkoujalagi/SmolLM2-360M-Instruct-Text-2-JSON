@@ -317,7 +317,7 @@ The project's implementation is organized into several modular components:
 
 - **Data Processing**
   - [`standardize_data.py`](standardize_data.py): Normalizes date, time, duration formats
-  - [`augment_data.py`](augment_data.py): Basic Data Augmentation
+  - [`curate_dataset.py`](curate_dataset.py): Curates dataset
   - [`instruction_format.py`](instruction_format.py): Converts to instruction-based format
 
 - **Model Training**
