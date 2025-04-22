@@ -1,0 +1,5 @@
+weekly
+biweekly
+monthly
+quarterly
+annual
