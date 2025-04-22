@@ -252,7 +252,7 @@ The model was fine-tuned using the Unsloth framework with the following configur
   <img src="https://github.com/user-attachments/assets/d356ec74-f170-461c-9149-9e5f039bda75" width="1000">
 </p>
 
-<!--
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/181c4da8-f63b-444c-ac31-c5172fece88a" width="1000">
   
@@ -260,7 +260,6 @@ The model was fine-tuned using the Unsloth framework with the following configur
   
   <img src="https://github.com/user-attachments/assets/3929a20e-ff3e-46cb-943b-6e530821aa8d" width="1000">
 </p>
--->
 
 The validation framework included:
 - Regular evaluation every 30 steps
