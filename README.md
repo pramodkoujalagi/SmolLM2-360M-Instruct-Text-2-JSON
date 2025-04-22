@@ -245,8 +245,12 @@ The model was fine-tuned using the Unsloth framework with the following configur
 
 - **Training time**: 1698.54 seconds
 - **Final training loss**: 0.5983
-- **Final validation loss**: 0.5939
+- **Final validation loss**: 0.5941
 - **Validation perplexity**: 1.8111 (excellent perplexity, close to 1.0)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d356ec74-f170-461c-9149-9e5f039bda75" width="1000">
+</p>
 
 <!--
 <p align="center">
