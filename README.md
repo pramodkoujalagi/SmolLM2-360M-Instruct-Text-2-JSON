@@ -246,7 +246,7 @@ The model was fine-tuned using the Unsloth framework with the following configur
 - **Training time**: Updating 
 - **Final training loss**: Updating 
 - **Final validation loss**: Updating 
-- **Validation perplexity**: 1.203 (excellent perplexity, close to 1.0)
+- **Validation perplexity**: 1.2735 (excellent perplexity, close to 1.0)
 
 <!--
 <p align="center">
