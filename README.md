@@ -35,6 +35,8 @@ Fine-tuning a Small Language Model to parse raw, unstructured text and extract r
 ### 👉 [Deployed Live App: Checkout the demo here!](https://huggingface.co/spaces/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON)
 
 ### 🤗 [Hugging Face](https://huggingface.co/pramodkoujalagi/SmolLM2-360M-Instruct-Text-2-JSON)
+![image](https://github.com/user-attachments/assets/11aeee77-6641-473b-a991-274c42b97d1e)
+
 
 ---------------------------
 ### 📦 Example Usage
